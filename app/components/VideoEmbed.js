@@ -22,11 +22,13 @@ export default function VideoEmbed({ videoId, title = "Video", autoplay = false 
                     onClick={handlePlay}
                 >
                     {/* Thumbnail Image */}
-                    <img
+                    <Image
                         src={thumbnailUrl}
                         alt={title}
-                        className="absolute top-0 left-0 w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                         loading="lazy"
+                        unoptimized
                     />
 
                     {/* Dark Overlay on Hover */}

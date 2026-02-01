@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import VideoEmbed from '../components/VideoEmbed'
@@ -387,7 +388,7 @@ export default function ManagedChannelPage() {
                         Is This <span className="gradient-text">Right for You?</span>
                     </h2>
                     <p className="text-xl text-cream-200 max-w-3xl mx-auto">
-                        Be honest with yourself — this program isn't for everyone
+                        Be honest with yourself — this program isn&apos;t for everyone
                     </p>
                 </div>
 
@@ -491,12 +492,12 @@ export default function ManagedChannelPage() {
                         >
                             Apply Now — Limited Slots
                         </button>
-                        <a
+                        <Link
                             href="/#pricing"
                             className="bg-transparent border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-primary-600 transition-colors text-lg"
                         >
                             Compare with SaaS Plans
-                        </a>
+                        </Link>
                     </div>
 
                     <p className="text-sm mt-8 opacity-75">

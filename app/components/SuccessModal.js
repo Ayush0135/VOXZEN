@@ -15,7 +15,7 @@ export default function SuccessModal({ onClose }) {
                     </h2>
                     <p className="text-cream-300 leading-relaxed">
                         Thank you for applying to the Voxzen Managed Channel Program.
-                        We've received your application and will review it carefully.
+                        We&apos;ve received your application and will review it carefully.
                     </p>
                 </div>
 
@@ -26,7 +26,7 @@ export default function SuccessModal({ onClose }) {
                             <svg className="w-5 h-5 text-primary-400 mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <span>We'll review your application within <strong>48 hours</strong></span>
+                            <span>We&apos;ll review your application within <strong>48 hours</strong></span>
                         </li>
                         <li className="flex items-start">
                             <svg className="w-5 h-5 text-primary-400 mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -38,13 +38,13 @@ export default function SuccessModal({ onClose }) {
                             <svg className="w-5 h-5 text-primary-400 mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <span>We'll discuss your goals and answer any questions</span>
+                            <span>We&apos;ll discuss your goals and answer any questions</span>
                         </li>
                         <li className="flex items-start">
                             <svg className="w-5 h-5 text-primary-400 mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <span>If approved, we'll guide you through the next steps</span>
+                            <span>If approved, we&apos;ll guide you through the next steps</span>
                         </li>
                     </ul>
                 </div>
